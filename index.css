@@ -1,7 +1,7 @@
-/*
 html,
 body,
-div,
+
+/*div,
 span,
 applet,
 object,
@@ -91,6 +91,8 @@ video {
 
 /* HTML5 display-role reset for older browsers */
 
+
+/*
 article,
 aside,
 details,
@@ -133,6 +135,7 @@ table {
 }
 
 
+
 /* CSS reset*/
 
 * {
@@ -144,6 +147,7 @@ table {
     display: flex;
     flex-direction: column;
     margin: 200px;
+    padding: 50px;
     background-color: #84ceeb;
 }
 
@@ -170,8 +174,26 @@ header {
 
 .main-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
 }
+
+.box1 {}
+
+.box2 {}
+
+.box3 {}
+
+.box4 {}
+
+.box5 {}
+
+.box6 {}
+
+.box7 {}
+
+.box8 {}
 
 nav a {
     margin: 5px;
