@@ -179,21 +179,61 @@ header {
     padding: 50px;
 }
 
-.box1 {}
+.box1 {
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
 
-.box2 {}
+.box2 {
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
 
-.box3 {}
+.box3 {
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
 
-.box4 {}
+.box4 {
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
 
-.box5 {}
+.box5 {
+    max-width: 100%;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+}
 
-.box6 {}
+.box6 {
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
 
-.box7 {}
+.box7 {
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
 
-.box8 {}
+.box8 {
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
 
 nav a {
     margin: 5px;
@@ -210,4 +250,16 @@ a:hover {
 
 footer {
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: pink;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: aliceblue;
+    }
 }
