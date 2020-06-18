@@ -136,8 +136,9 @@ table {
 /* CSS reset*/
     
     * {
-        font-family: 'Mali', cursive;
-        color: #5680e9;
+        font-family: 'Arvo', serif;
+        color: rgb(95, 16, 95);
+        font-size: 20px;
     }
     
     .container {
@@ -180,7 +181,7 @@ table {
         padding: 5px;
         margin: 5px;
         max-width: 100%;
-        height: auto;
+        height: 10px;
     }
     
     .box2 {
