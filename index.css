@@ -1,7 +1,6 @@
-html,
-body,
-
-/*div,
+    html,
+    body,
+    /*div,
 span,
 applet,
 object,
@@ -90,9 +89,7 @@ video {
 
 
 /* HTML5 display-role reset for older browsers */
-
-
-/*
+    /*
 article,
 aside,
 details,
@@ -137,129 +134,161 @@ table {
 
 
 /* CSS reset*/
-
-* {
-    font-family: 'Mali', cursive;
-    color: #5680e9;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: 200px;
-    padding: 50px;
-    background-color: #84ceeb;
-}
-
-header {
-    margin: 20px;
-}
-
-.header {
-    display: flex;
-    background-color: #C1C8E4;
-}
-
-.intro {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    text-align: justify;
-}
-
-.logo {
-    border-radius: 50%;
-    border-style: groove;
-}
-
-.main-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 50px;
-}
-
-.box1 {
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
-.box2 {
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
-.box3 {
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
-.box4 {
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
-.box5 {
-    max-width: 100%;
-    padding: 5px;
-    margin: 5px;
-    height: auto;
-}
-
-.box6 {
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
-.box7 {
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
-.box8 {
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
-nav a {
-    margin: 5px;
-    padding: 10px;
-    background-color: #5AB9EA;
-    color: white;
-    text-decoration: none;
-    border-radius: 10%;
-}
-
-a:hover {
-    background-color: #8860d0;
-}
-
-footer {
-    text-align: center;
-}
-
-@media screen and (max-width: 800px) {
-    body {
-        background-color: pink;
+    
+    * {
+        font-family: 'Mali', cursive;
+        color: #5680e9;
     }
-}
-
-@media screen and (max-width: 500px) {
-    body {
-        background-color: aliceblue;
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 200px;
+        padding: 50px;
+        background-color: #84ceeb;
     }
-}
+    
+    header {
+        margin: 20px;
+    }
+    
+    .header {
+        display: flex;
+        background-color: #C1C8E4;
+    }
+    
+    .intro {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        text-align: justify;
+    }
+    
+    .logo {
+        border-radius: 50%;
+        border-style: groove;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    
+    .box1 {
+        padding: 5px;
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .box2 {
+        padding: 5px;
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .box3 {
+        padding: 5px;
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .box4 {
+        padding: 5px;
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .box5 {
+        max-width: 100%;
+        padding: 5px;
+        margin: 5px;
+        height: auto;
+    }
+    
+    .box6 {
+        padding: 5px;
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .box7 {
+        padding: 5px;
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .box8 {
+        padding: 5px;
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    nav a {
+        margin: 5px;
+        padding: 10px;
+        background-color: #5AB9EA;
+        color: white;
+        text-decoration: none;
+        border-radius: 10%;
+    }
+    
+    a:hover {
+        background-color: #8860d0;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 800px) {
+        body {
+            background-color: pink;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        body {
+            background-color: aliceblue;
+        }
+    }
+    
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+    }
+    
+    input[type=submit] {
+        background-color: #dabfd6;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+    .form-container {
+        border-radius: 5px;
+        background-color: #9312cf;
+        padding: 20px;
+    }
